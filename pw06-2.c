@@ -10,7 +10,7 @@ int main(void)
 	setlocale(LC_ALL, "");
 	while ((char = getwchar()) != L'#')
 	{
-		if (ispunct(ch))
+		if (iswpunct(ch))
 		{
 			count++;
 		}
