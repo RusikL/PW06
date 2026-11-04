@@ -8,7 +8,7 @@ int main(void)
 	wint_t ch;
 	int count = 0;
 	setlocale(LC_ALL, "");
-	while ((char = getwchar()) != L'#')
+	while ((ch = getwchar()) != L'#')
 	{
 		if (iswpunct(ch))
 		{
