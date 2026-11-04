@@ -28,7 +28,7 @@ int main(void)
 			count2++;
 			sum2 += n;
 		}
-		scanf("%d" &n);
+		scanf("%d", &n);
 	}
 	printf("С цифрой 5: #d\n", count1);
 	if (count1 > 0)
