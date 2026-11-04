@@ -30,7 +30,7 @@ int main(void)
 		}
 		scanf("%d", &n);
 	}
-	printf("С цифрой 5: #d\n", count1);
+	printf("С цифрой 5: %d\n", count1);
 	if (count1 > 0)
 	{
 		printf("Среднее: %.2f\n", (double)sum1 / count1);
